@@ -1,0 +1,33 @@
+<!--pages/SpecialOffer/SpecialOffer.wxml-->
+<!-- <text>pages/SpecialOffer/SpecialOffer.wxml</text> -->
+<view class="SpecialOffer_container">
+  <image src="https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1963304009,2816364381&fm=26&gp=0.jpg"
+    class="SpecialOffer_container_img"></image>
+  <van-row class="SpecialOffer_card_box">
+    <van-col span="12" wx:for="{{4}}" :key="item" class="">
+      <view class="SpecialOffer_card_item">
+        <view class="SpecialOffer_card">
+          <image src="https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1963304009,2816364381&fm=26&gp=0.jpg"
+            class="SpecialOffer_card_img"></image>
+          <view class="SpecialOffer_card_title">
+            5座小轿车
+          </view>
+          <view class="flexbox flex_between SpecialOffer_card_desc">
+            <view class="SpecialOffer_card_price">
+              原价￥40.00
+            </view>
+            <view class="SpecialOffer_card_price padding_10 ">
+              |
+            </view>
+            <view class="SpecialOffer_card_num">
+              邀请3人
+            </view>
+          </view>
+          <button class="SpecialOffer_btn">
+            24元洗车
+          </button>
+        </view>
+      </view>
+    </van-col>
+  </van-row>
+</view>

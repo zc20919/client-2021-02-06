@@ -1,0 +1,48 @@
+<!--pages/my/my.wxml-->
+<!-- <text>pages/my/my.wxml</text> -->
+<view class="my_container">
+  <view class="my_header flexbox flex_between">  
+    <view class="flexbox header_userinfo">
+        <view class="avatar_box">
+          
+        </view>
+        <view class="userinfo_box">
+          <view class="userinfo_title">
+            思春的小鱼
+          </view>
+          <view class="userinfo_phone">
+            177****5140
+          </view>
+        </view>
+        <view class="">
+          <van-icon name="setting" class="setting_icon" />
+        </view>
+    </view>
+  </view>
+  <van-cell-group>
+    <van-cell is-link>
+      <view slot="title" class="flexbox cell_center">
+        <image src="/images/ordername.png" class="my_icon"></image>
+        <view class="my_title">卡卷包</view>
+      </view>
+    </van-cell>
+    <van-cell is-link>
+      <view slot="title" class="flexbox cell_center">
+        <image src="/images/ordername.png" class="my_icon"></image>
+        <view class="my_title">分享好友</view>
+      </view>
+    </van-cell>
+    <van-cell is-link>
+      <view slot="title" class="flexbox cell_center">
+        <image src="/images/ordername.png" class="my_icon"></image>
+        <view class="my_title">联系客服</view>
+      </view>
+    </van-cell>
+    <van-cell is-link>
+      <view slot="title" class="flexbox cell_center">
+        <image src="/images/ordername.png" class="my_icon"></image>
+        <view class="my_title" > 用户 协议</view>
+      </view>
+    </van-cell>
+  </van-cell-group>
+</view>

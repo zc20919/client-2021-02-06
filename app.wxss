@@ -1,0 +1,88 @@
+[is="miniprogram_npm/@vant/weapp/goods-action-button/index"] {
+    flex: 1;
+}
+
+[is="miniprogram_npm/@vant/weapp/icon/index"] {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+[is="miniprogram_npm/@vant/weapp/loading/index"] {
+    font-size: 0;
+    line-height: 1;
+}
+
+[is="miniprogram_npm/@vant/weapp/tab/index"] {
+    flex-shrink: 0;
+    width: 100%;
+}
+
+[is="miniprogram_npm/@vant/weapp/tabbar-item/index"] {
+    flex: 1;
+}
+
+.container {
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: PingFang SC;
+    padding: 200rpx 0;
+    box-sizing: border-box;
+}
+
+.container,.flexbox {
+    display: flex;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+.saletitle {
+    width: 600rpx;
+    font-size: 36rpx;
+    font-weight: 700;
+    color: #333;
+}
+
+.alignleft {
+    text-align: left;
+}
+
+.alignright {
+    text-align: right;
+}
+
+.salebox {
+    justify-content: space-between;
+}
+
+.allicon {
+    width: 24rpx;
+    margin-top: 14rpx;
+    margin-right: 5rpx;
+    height: 24rpx;
+}
+
+view {
+    flex-shrink: 0;
+}
+
+.sale_btn {
+    font-size: 24rpx;
+    font-weight: 500;
+    color: #194cd0;
+    box-sizing: border-box;
+    padding: 0 10rpx;
+    height: 48rpx;
+    line-height: 48rpx;
+    margin-right: 10rpx;
+    border: 1px solid #184cd0;
+    border-radius: 10rpx;
+}

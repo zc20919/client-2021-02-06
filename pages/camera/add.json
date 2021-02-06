@@ -1,0 +1,15 @@
+{
+    "usingComponents": {
+        "van-button": "../../miniprogram_npm/@vant/weapp/button/index",
+        "van-uploader": "../../miniprogram_npm/@vant/weapp/uploader/index",
+        "van-sticky": "../../miniprogram_npm/@vant/weapp/sticky/index",
+        "van-image": "../../miniprogram_npm/@vant/weapp/image/index",
+        "van-row": "../../miniprogram_npm/@vant/weapp/row/index",
+        "van-col": "../../miniprogram_npm/@vant/weapp/col/index",
+        "van-icon": "../../miniprogram_npm/@vant/weapp/icon/index",
+        "van-field": "../../miniprogram_npm/@vant/weapp/field/index",
+        "van-dialog": "../../miniprogram_npm/@vant/weapp/dialog/index",
+        "van-toast": "../../miniprogram_npm/@vant/weapp/toast/index"
+    },
+    "navigationBarTitleText": "新增摄像头"
+}

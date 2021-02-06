@@ -1,0 +1,130 @@
+.page,page {
+    height: 100%;
+    background: #f5f5f5;
+}
+
+.page {
+    width: 100%;
+}
+
+.top {
+    margin-top: 6rpx;
+    padding: 0rpx 30rpx;
+    height: 124rpx;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_input {
+    width: 420rpx;
+    line-height: 60rpx!important;
+    min-height: 60rpx;
+    border-radius: 10rpx 0rpx 0rpx 10rpx;
+    border: 1rpx solid #ccc;
+}
+
+.zc_top_left_button {
+    border-radius: 10rpx 0 0 10rpx;
+    border: 1rpx solid #ccc;
+    padding: 10rpx;
+    box-sizing: border-box;
+}
+
+.top_left_button {
+    width: 120rpx;
+    background: #274bc8;
+    border-radius: 0rpx 10rpx 10rpx 0rpx;
+}
+
+.top_left_button,.top_right_button {
+    height: 62rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 24rpx;
+}
+
+.top_right_button {
+    width: 140rpx;
+    background: #f2a63b;
+    border-radius: 10rpx;
+}
+
+.title {
+    /* width: 242rpx; */
+    height: 34rpx;
+    margin-left: 31rpx;
+    margin-top: 30rpx;
+    font-size: 36rpx;
+    font-family: PingFang SC;
+    font-weight: 700;
+    color: #343434;
+}
+
+.item {
+    margin: 32rpx auto;
+    padding: 0 30rpx;
+    width: 630rpx;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.item_top {
+    padding: 29rpx 0rpx;
+    border-bottom: 1rpx solid #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item_top>view:first-of-type {
+    font-weight: 700;
+    color: #343434;
+    height: 31rpx;
+    font-size: 32rpx;
+    display: flex;
+    align-items: center;
+}
+
+.item_top>view:nth-of-type(2) {
+    font-size: 24rpx;
+    font-weight: 500;
+    color: #75b560;
+}
+
+.item_main {
+    display: flex;
+    flex-direction: column;
+    line-height: 60rpx;
+}
+
+.item_main>view>text:first-of-type {
+    color: #999;
+    width: 200rpx!important;
+}
+
+.active,.status_active {
+    color: red!important;
+}
+
+.item_main>view>text:nth-of-type(2) {
+    color: #333;
+}
+
+.top .van-field__input,.zc_top_left_button {
+    padding: 0;
+    line-height: 59rpx;
+}
+
+.top .van-field__input {
+    height: 59rpx;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+input {
+    height: 59rpx;
+    line-height: 59rpx;
+}

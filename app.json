@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/SpecialOffer/SpecialOffer"
+
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    } 
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap9.json",
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#d81e06",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首 页",
+        "iconPath": "/images/ordername.png",
+        "selectedIconPath": "/images/ordername.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "今日疯抢",
+        "iconPath": "/images/ordername.png",
+        "selectedIconPath": "/images/ordername.png"
+      },
+      {
+        "pagePath": "pages/SpecialOffer/SpecialOffer",
+        "text": "特价车险",
+        "iconPath": "/images/ordername.png",
+        "selectedIconPath": "/images/ordername.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我 的",
+        "iconPath": "/images/ordername.png",
+        "selectedIconPath": "/images/ordername.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+<view class="page">
+    <view class="main">
+        <view class="main_title">摄像头信息</view>
+        <view class="input_item">
+            <text decode="true">名&nbsp;&nbsp;&nbsp;称：</text>
+            <input model:value="{{name}}" placeholder=" 请输入摄像头名称"></input>
+        </view>
+        <view class="input_item">
+            <text>序列号：</text>
+            <input model:value="{{num}}" placeholder=" 请输入摄像头序列号"></input>
+        </view>
+        <view class="input_item">
+            <text>验证码：</text>
+            <input model:value="{{code}}" placeholder=" 请输入摄像头验证码"></input>
+        </view>
+        <view class="input_item_fin">
+            <text decode="true">备&nbsp;&nbsp;&nbsp;注：</text>
+            <input model:value="{{remark}}" placeholder=" 请输入备注"></input>
+        </view>
+    </view>
+    <button bindtap="AppletCamera" class="go">确定添加</button>
+</view>

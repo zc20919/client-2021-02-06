@@ -1,0 +1,59 @@
+/* pages/my/my.wxss */
+.flexbox {
+  display: flex;
+}
+
+.cell_center {
+  align-items: center;
+}
+
+.my_icon {
+  width: 25rpx;
+  height: 25rpx;
+  margin-right: 14rpx;
+}
+
+.my_title {
+  font-size: 24rpx;
+  color: #000000;
+}
+
+.my_header {
+  height: 264rpx;
+  width: 100vw;
+  background: red;
+}
+.flex_between{
+  justify-content: space-between;
+}
+.header_userinfo{
+  padding: 53rpx 35rpx;
+  font-family:  Microsoft JhengHei;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.userinfo_box{
+  color: #ffffff;
+  flex: 1;
+}
+
+.userinfo_title{
+  font-size: 30rpx;
+  margin-top: 10rpx;
+}
+.userinfo_phone{
+  margin-top: 30rpx;
+}
+.avatar_box{
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+  background: #fff;
+  margin-right: 30rpx;
+}
+.setting_icon{
+  font-size: 39rpx;
+  color: #fff;
+}

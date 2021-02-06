@@ -1,0 +1,46 @@
+<view class="page">
+    <view class="top">
+        <view class="flexbox" style="width:540rpx;">
+            <view class="zc_top_left_button" style="width:420rpx;">
+                <input bindinput="searchlist" class="" value="{{searchtxt}}" placeholder="序列号/名称"></input>
+            </view>
+            <view class="top_left_button">
+                <image src="/images/icon/icon_so.png" style="width:24rpx;height:24rpx;"></image>
+			搜索
+		</view>
+        </view>
+        <view bindtap="gonav" class="top_right_button" data-url="/pages/camera/add">
+            <image src="/images/icon/icon_jia.png" style="width:24rpx;height:24rpx;"></image>
+			添加
+		</view>
+    </view>
+    <!-- <view class="title">设备(126/168)</view> -->
+    <view>
+        <view class="item" wx:for="{{list}}">
+            <view class="item_top">
+                <view>
+                    <image src="/images/icon/icon_camera.png" style="width:33rpx;height:40rpx;margin-right:14rpx;"></image>
+                    <text>序列号：{{item.Id}}</text>
+                </view>
+                <!-- <view>正常</view> -->
+                <view bindtap="del" data-id="{{item.Id}}">
+                    删除
+                </view>
+            </view>
+            <view class="item_main">
+                <view>
+                    <text decode="true">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名称：</text>
+                    <text>{{item.Name}}</text>
+                </view>
+                <view>
+                    <text decode="true">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;备注：</text>
+                    <text>{{item.Remark}}</text>
+                </view>
+                <view>
+                    <text decode="true">&nbsp;&nbsp; 验证码：</text>
+                    <text>{{item.VerificationCode}}</text>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
