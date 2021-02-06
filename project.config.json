@@ -71,6 +71,12 @@
         {
           "name": "pages/SpecialOffer/SpecialOffer",
           "pathName": "pages/SpecialOffer/SpecialOffer",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/SpecialOffer/SpecialOffer",
+          "pathName": "pages/Sharecoupon/Sharecoupon",
           "scene": null
         }
       ]

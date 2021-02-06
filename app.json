@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/my/my",
-    "pages/SpecialOffer/SpecialOffer"
+    "pages/SpecialOffer/SpecialOffer",
+    "pages/Sharecoupon/Sharecoupon",
+    "pages/evaluate/evaluate"
 
   ],
   "permission": {

@@ -1,0 +1,34 @@
+<!--pages/Sharecoupon/Sharecoupon.wxml-->
+<!-- <text>pages/Sharecoupon/Sharecoupon.wxml</text> -->
+<view class="Sharecoupon_container">
+  <view class="Sharecoupon_btn_group">
+    <view class="Sharecoupon_btn_box">
+      <button class="Sharecoupon_btn">
+        服务券
+      </button>
+    </view>
+    <view class="Sharecoupon_btn_box">
+      <button class="Sharecoupon_btn_active">
+        代金券
+      </button>
+    </view>
+  </view>
+  <view wx:for="{{3}}" :key="item" class="Sharecoupon_coupon">
+    <view class="flexbox flex_between Sharecoupon_coupon_box">
+      <view>
+          <view class="Sharecoupon_coupon_title">
+            代金券（洗车）
+          </view>
+          <view class="Sharecoupon_coupon_price">  
+            ￥2.00
+          </view>
+          <view class="Sharecoupon_coupon_time">
+            2020/12/18-2021/01/01
+          </view>
+      </view>
+      <view class="Sharecoupon_coupon_btn_box">
+        <button class="Sharecoupon_coupon_btn">去使用</button>
+      </view>
+    </view>
+  </view>
+</view>

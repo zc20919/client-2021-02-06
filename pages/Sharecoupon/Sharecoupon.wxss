@@ -1,0 +1,74 @@
+/* pages/Sharecoupon/Sharecoupon.wxss */
+.Sharecoupon_container {}
+
+.Sharecoupon_btn_group {
+  display: flex;
+  margin-top: 10rpx;
+}
+
+.Sharecoupon_btn {
+  width: 223rpx;
+  background-color: #f6ede6;
+  font-size: 24rpx;
+  color: #e00a19;
+  line-height: 57rpx;
+  text-align: center;
+  height: 57rpx;
+  border-radius: 0;
+}
+
+.Sharecoupon_btn_active {
+  width: 223rpx;
+  height: 57rpx;
+  background-color: #ee181b;
+  font-size: 24rpx;
+  line-height: 57rpx;
+  color: #ffffff;
+border-radius: 0;
+}
+
+.Sharecoupon_btn_box {
+  margin-left: 20rpx;
+}
+
+.Sharecoupon_coupon {
+  width: 729rpx;
+  height: 139rpx;
+  background-color: #ffffff;
+  border: solid 1rpx #dddddd;
+  margin: auto;
+  margin-top: 22rpx;
+}
+
+.Sharecoupon_coupon_btn {
+  width: 134rpx;
+  height: 62rpx;
+  background-color: #ee181b;
+  color: #fff;
+  font-size: 24rpx;
+  line-height: 62rpx;
+}
+
+.Sharecoupon_coupon_title{
+	font-size: 28rpx;
+	font-weight: bold;
+line-height: 40rpx;
+}
+.Sharecoupon_coupon_box{
+  padding: 20rpx 24rpx;
+}
+.Sharecoupon_coupon_price{
+  color: #ee181b;
+  font-size: 24rpx;
+  margin-top: 6rpx;
+  line-height: 33rpx;
+}
+.Sharecoupon_coupon_time{
+  color: #666666;
+  font-size: 20rpx;
+  line-height: 30rpx;
+
+}
+.Sharecoupon_coupon_btn{
+  margin-top: 20rpx;
+}
