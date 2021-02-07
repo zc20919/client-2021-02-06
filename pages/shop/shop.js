@@ -1,23 +1,11 @@
-// pages/index/index.js
+// pages/shop/shop.js
 Page({
-  onShareAppMessage() {
-    return {
-      title: 'swiper',
-      path: 'page/component/pages/swiper/swiper'
-    }
-  },
+
   /**
    * 页面的初始数据
    */
   data: {
-    valueText:4.5,
 
-    background: ['demo-text-1', 'demo-text-2', 'demo-text-3'],
-    indicatorDots: true,
-    vertical: false,
-    autoplay: true,
-    interval: 2000,
-    duration: 500
   },
 
   /**

@@ -1,9 +1,74 @@
 <!--pages/index/index.wxml-->
 <!-- <text>pages/index/index.wxml</text> -->
 <view>
-  <view class="">
-    <view>
+  <view class="content">
+<!-- 头部 -->
+    <view class="headBox">
+      <!-- 地址 -->
+      <view class="titleBox">
+        <van-icon name="location-o" class="addressIcon"/>
+        <view class="addressText">当前位置：北京市海鼎区</view>
+        <van-icon name="exchange" class="exchangeIcon"/>
+      </view>
       
+      <!-- 轮播图 -->
+      <view class="page-section page-section-spacing swiper swiperBox">
+        <swiper indicator-dots="{{indicatorDots}}" class="swiperBox"
+          autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+          <block wx:for="{{background}}" wx:key="*this">
+            <swiper-item>
+              <view class="swiper-item swiperIndex {{item}}"></view>
+            </swiper-item>
+          </block>
+        </swiper>
+      </view>
     </view>
+    <!-- 按钮 -->
+<view class="btnDroup">
+<view wx:for="{{4}}" wx:key="item" class="btnBigIndex">
+  <van-icon name="location-o"/>
+  <view>洗车</view>
+</view>
+</view>
+
+<!-- 选项卡 -->
+<view class="tabChoose">
+  <view>特惠洗车</view>
+  <view>美容美发</view>
+</view>
+
+<!-- 分享 -->
+<view class="shareBox">
+  <image src="https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1963304009,2816364381&fm=26&gp=0.jpg" alt="" class="shareImg"></image>
+  <view class="shareText">
+    <view class="shareShopText">
+      <view>
+        <view class="titShare">洗车统一价</view>
+        <view class="littleTitShare">平台所有洗车店可用</view>
+      </view>
+      <van-icon name="share" />
+    </view>
+    <view>
+      <view class="shareTextPrice">
+        ￥<text>30</text>.00/ 
+        <view>次</view>
+      </view>
+      <button class="buyNowIndex">立即购买</button>
+    </view>
+  </view>
+</view>
+
+<view>
+  <view class="listTit">
+    <view>以下店铺均可用</view>
+    <view class="moreListShop">更多<van-icon name="arrow" /></view>
+  </view>
+  <van-row class="SpecialOffer_card_box">
+  <van-col span="12" wx:for="{{4}}" wx:key="item" class="">
+     <carlist></carlist>
+    </van-col>
+  </van-row>
+</view>
+
   </view>
 </view>

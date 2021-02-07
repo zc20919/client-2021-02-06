@@ -77,6 +77,18 @@
         {
           "name": "pages/SpecialOffer/SpecialOffer",
           "pathName": "pages/Sharecoupon/Sharecoupon",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/Sharecoupon/Sharecoupon",
+          "pathName": "pages/evaluate/evaluate",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "立即购买",
+          "pathName": "pages/BuyNow/BuyNow",
           "scene": null
         }
       ]

@@ -1,0 +1,27 @@
+<view class="SpecialOffer_card_item">
+        <view class="SpecialOffer_card">
+          <image src="https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1963304009,2816364381&fm=26&gp=0.jpg"
+            class="SpecialOffer_card_img"></image>
+          <view class="cardIndexShop">
+            <view class="cardIndexShopTit writeEll">专业换油养护中心专业换油养护中心</view>
+            <view class="cardIndexShopRate">
+              <van-rate value="{{ valueText }}" allow-half bind:change="onChange" size="15" gutter="1" color="#ff5e0e" void-color="#eee" void-icon="star" bind:change="onChange"/>
+              {{valueText}}分
+            </view>
+            <view class="cardIndexShopTime">营业时间：8:00-18:00</view>
+            <view class="cardIndexShopAddress">
+              <van-icon name="location-o" class="addressIcon"/>
+              <view class="writeEll">北京市海鼎区北京市海鼎区北京市海鼎区北京市海鼎区北京市海鼎区</view> </view>
+            <view class="cardIndexShopMsg">
+              <view>
+                <van-icon name="location" />
+                1.00KM
+              </view>
+              <view>
+                <van-icon name="comment-o" />
+                100
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>

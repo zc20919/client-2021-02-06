@@ -1,0 +1,198 @@
+/* pages/BuyNow/BuyNow.wxss */
+.BuyNow_nav_btn {}
+
+.flex_between {
+  justify-content: space-between;
+}
+
+.BuyNow_nav_btn_group {
+  padding: 25rpx;
+}
+
+.BuyNow_nav_btn_nav {
+  padding: 21rpx;
+  text-align: center;
+  width: 332rpx;
+  height: 85rpx;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.bgc_pink {
+  background-color: #f6ede6;
+  color: #e00a19 !important;
+}
+
+.bgc_red {
+  background-image: linear-gradient(176deg,
+      #ff6f57 0%,
+      #f11924 50%,
+      #d30715 100%);
+  font-size: 24rpx;
+}
+
+.BuyNow_nav_btn_nav_icon {
+  width: 76rpx;
+  height: 43rpx;
+}
+
+.BuyNow_nav_btn_nav_txt {
+  line-height: 46rpx;
+  margin-left: 24rpx;
+  font-size: 24rpx;
+}
+
+.BuyNow_notice {
+  width: 729rpx;
+  height: 57rpx;
+  background-color: #f8e1e1;
+  font-size: 24rpx;
+  color: #ee181b;
+  margin: auto;
+}
+
+.flex_center {
+  justify-content: center;
+}
+
+.BuyNow_notice_txt {
+  line-height: 57rpx;
+  font-size: 24rpx;
+  color: #ee181b;
+  margin-left: 5rpx;
+}
+
+.BuyNow_shop {
+  width: 750rpx;
+  height: 267rpx;
+  background-color: #ffffff;
+}
+
+.BuyNow_shop_box {
+  padding: 10rpx;
+}
+
+.bgc_white {
+  background-color: #fff;
+}
+
+.BuyNow_container {
+  background-color: #efefef;
+  min-height: 100vh;
+}
+
+.BuyNow_shop_img {
+  width: 361rpx;
+  height: 246rpx;
+  margin-right: 26rpx;
+}
+
+.BuyNow_shop_center {
+  flex: 1;
+}
+
+.BuyNow_shop_center_icon_box {
+  margin-right: 25rpx;
+  margin-left: 10rpx;
+}
+
+.BuyNow_shop_center_title {
+  margin-top: 22rpx;
+  font-size: 28rpx;
+  font-weight: bold;
+}
+
+.BuyNow_shop_center_shop {
+  font-size: 24rpx;
+  color: #666666;
+  margin-top: 4rpx;
+}
+
+.BuyNow_shop_center_type {
+  font-size: 24rpx;
+  margin-top: 12rpx;
+  margin-bottom: 12rpx;
+}
+
+.BuyNow_shop_center_time {
+  font-size: 24rpx;
+  color: #666666;
+}
+
+.BuyNow_shop_center_price_box {
+  margin-top: 25rpx;
+  align-items: flex-end;
+}
+
+.BuyNow_shop_center_unit {
+  font-size: 18rpx;
+  color: #ee181b;
+}
+
+.BuyNow_shop_center_money {
+  font-size: 30rpx;
+  color: #ee181b;
+}
+
+.BuyNow_shop_center_unitname {
+  font-size: 24rpx;
+  color: #666666;
+}
+
+.BuyNow_shop_center_icon_box {
+  margin-top: 14rpx;
+}
+
+.BuyNow_shop_coupon {
+  margin-top: 10rpx;
+  width: 750rpx;
+  height: 76rpx;
+  padding: 16rpx;
+  box-sizing: border-box;
+}
+
+.BuyNow_shop_coupon_tags {
+  font-size: 20rpx;
+  margin-left: 17rpx;
+}
+
+.van-tag {
+  font-size: 20rpx !important;
+  padding: 6rpx 24rpx !important;
+}
+
+.BuyNow_shop_pay_btn_box {
+  margin-top: 50rpx;
+}
+
+.BuyNow_shop_pay_btn {
+  width: 448rpx;
+  height: 92rpx;
+  background-color: #ff5e0e;
+  font-size: 24rpx;
+  color: #ffffff;
+  line-height: 36rpx;
+  padding: 12rpx;
+  border-radius: 46rpx;
+}
+
+.BuyNow_shop_pay_desc {
+  font-size: 24rpx;
+  margin-top: 21rpx;
+  width: 100vw;
+  justify-content: center;
+}
+
+.color_grey {
+  color: #7d7d7d;
+}
+
+.color_orange {
+  color: #ff5e0e;
+}
+
+.BuyNow_shop_more_title {
+  font-size: 24rpx;
+  color: #1b212f;
+  padding: 16rpx;
+}

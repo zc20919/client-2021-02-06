@@ -4,8 +4,10 @@
     "pages/my/my",
     "pages/SpecialOffer/SpecialOffer",
     "pages/Sharecoupon/Sharecoupon",
-    "pages/evaluate/evaluate"
-
+    "pages/evaluate/evaluate",
+    "pages/BuyNow/BuyNow",
+    "components/carlist/carlist",
+    "pages/shop/shop"
   ],
   "permission": {
     "scope.userLocation": {

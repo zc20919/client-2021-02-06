@@ -1,2 +1,48 @@
 <!--pages/evaluate/evaluate.wxml-->
-<text>pages/evaluate/evaluate.wxml</text>
+<!-- <text>pages/evaluate/evaluate.wxml</text> -->
+<view class="evaluate_container">
+  <view class="flexbox evaluate_header">
+    <view class="evaluate_header_img_box">
+      <image src="https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1963304009,2816364381&fm=26&gp=0.jpg"
+        class="evaluate_header_img"></image>
+    </view>
+    <view>
+      <view class="evaluate_header_title">
+        标准洗车
+      </view>
+      <view class="evaluate_header_shop">
+        核销店铺：XXX店铺名称
+      </view>
+    </view>
+  </view>
+  <view class="evaluate_tags_group">
+    <van-tag class="evaluate_tags" color="#ff5e0e" text-color="#ffffff">服务很认真，很仔细</van-tag>
+    <van-tag class="evaluate_tags" color="#ff5e0e" text-color="#ffffff">服务热情</van-tag>
+    <van-tag class="evaluate_tags" color="#dddddd" text-color="#7d7d7d">环境很好</van-tag>
+    <van-tag class="evaluate_tags" color="#ff5e0e" text-color="#ffffff">店铺很大</van-tag>
+    <van-tag class="evaluate_tags" color="#ff5e0e" text-color="#ffffff">清洗很干净</van-tag>
+  </view>
+  <view class="flexbox evaluate_star_box">
+    <view class="evaluate_star_title">
+      服务评分:
+    </view>
+    <van-rate value="{{ value }}" size="{{ 25 }}" color="#fd891c" void-color="#ddd" void-icon="star"
+      bind:change="onChange" />
+  </view>
+  <van-field
+    value="{{ message }}"
+    type="textarea"
+    placeholder="说点什么"
+    autosize
+    border="{{ false }}"
+  />
+  <view class="evaluate_uploader_box">
+    <van-uploader file-list="{{ fileList }}" bind:after-read="afterRead" />
+  </view>
+
+  <view class="">
+    <button class="evaluate_btn">
+      立即评价
+    </button>
+  </view>
+</view>

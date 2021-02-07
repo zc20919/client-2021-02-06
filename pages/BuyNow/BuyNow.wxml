@@ -1,0 +1,103 @@
+<!--pages/BuyNow/BuyNow.wxml-->
+<!-- <text>pages/BuyNow/BuyNow.wxml</text> -->
+<view class="BuyNow_container">
+  <view class="flexbox flex_between BuyNow_nav_btn_group bgc_white">
+    <view class="BuyNow_nav_btn">
+      <button class="BuyNow_nav_btn_nav flexbox bgc_pink">
+        <image src="https://dss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2727890739,3885965064&fm=26&gp=0.jpg"
+          class="BuyNow_nav_btn_nav_icon"></image>
+        <view class="BuyNow_nav_btn_nav_txt">
+          ５座小型轿车
+        </view>
+      </button>
+    </view>
+    <view class="BuyNow_nav_btn">
+      <button class="BuyNow_nav_btn_nav flexbox bgc_red">
+        <image src="https://dss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2727890739,3885965064&fm=26&gp=0.jpg"
+          class="BuyNow_nav_btn_nav_icon"></image>
+        <view class="BuyNow_nav_btn_nav_txt">
+          SUV/MPV
+        </view>
+      </button>
+    </view>
+  </view>
+  <view class="bgc_white">
+    <view class="BuyNow_notice flexbox flex_center ">
+      <van-icon name="warning" />
+      <view class="BuyNow_notice_txt">
+        SUV/MPV使用小车卷需要另付商户现金5元噢
+      </view>
+    </view>
+  </view>
+  <view class="flexbox BuyNow_shop bgc_white">
+    <view class="BuyNow_shop_box">
+      <image src="https://dss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2727890739,3885965064&fm=26&gp=0.jpg"
+        class="BuyNow_shop_img"></image>
+    </view>
+    <view class="BuyNow_shop_center">
+      <view class="BuyNow_shop_center_title">
+        洗车统一价
+      </view>
+      <view class="BuyNow_shop_center_shop">
+        平台所有洗车店通用
+      </view>
+      <view class="BuyNow_shop_center_type">
+        标准洗车
+      </view>
+      <view class="BuyNow_shop_center_time">
+        截至日期：2021/10/10
+      </view>
+      <view class="flexbox BuyNow_shop_center_price_box">
+        <view class="BuyNow_shop_center_unit">
+          ￥
+        </view>
+        <view class="BuyNow_shop_center_money">
+          ３0
+        </view>
+        <view class="BuyNow_shop_center_unitname">
+          / 次
+        </view>
+      </view>
+    </view>
+    <view class="BuyNow_shop_center_icon_box">
+      <van-icon name="share" color="#f11924" size='25px' />
+    </view>
+  </view>
+  <view class="flexbox BuyNow_shop_coupon bgc_white flex_between">
+    <view>
+      代金券
+    </view>
+    <view>
+      <van-tag class="BuyNow_shop_coupon_tags" round color="#ff5e0e" text-active="#fff">3元</van-tag>
+      <van-tag round class="BuyNow_shop_coupon_tags" color="#f2e1e1" text-active="#e66e6e">2元</van-tag>
+      <van-tag round class="BuyNow_shop_coupon_tags" color="#f2e1e1" text-active="#e66e6e">1元</van-tag>
+    </view>
+  </view>
+  <view class="BuyNow_shop_pay_btn_box">
+    <button class="BuyNow_shop_pay_btn">
+      <view>
+        合计：￥27
+      </view>
+      <view>
+        立即支付
+      </view>
+    </button>
+    <view class="flexbox BuyNow_shop_pay_desc">
+      <view class="color_grey">
+        支付遇到问题？
+      </view>
+      <view class="color_orange">
+        联系客服
+      </view>
+    </view>
+  </view>
+  <view class="BuyNow_shop_more_box ">
+    <view class="BuyNow_shop_more_title">以下店铺均可用</view>
+    <van-row>
+      <van-col span="12" wx:for="{{4}}" :key="{{item}}">
+        <carlist></carlist>
+      </van-col>
+    </van-row>
+
+  </view>
+</view>
