@@ -1,0 +1,87 @@
+<!--pages/Sharecoupon/Sharecoupon.wxml-->
+<!-- <text>pages/Sharecoupon/Sharecoupon.wxml</text> -->
+<view class="Sharecoupon_container">
+  <view class="Sharecoupon_btn_group">
+    <view class="Sharecoupon_btn_box">
+      <button class="Sharecoupon_btn">
+        服务券
+      </button>
+    </view>
+    <view class="Sharecoupon_btn_box">
+      <button class="Sharecoupon_btn_active">
+        代金券
+      </button>
+    </view>
+  </view>
+  <van-tabs active="{{ active }}" bind:change="onChange">
+  <van-tab title="未使用">
+    <view wx:for="{{3}}" :key="item" class="Sharecoupon_coupon">
+    <view class="flexbox flex_between Sharecoupon_coupon_box">
+      <view>
+        <image src="https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1963304009,2816364381&fm=26&gp=0.jpg" class="Sharecoupon_coupon_img"></image>
+      </view>
+      <view class="Servicecoupon_coupon_center">
+         <view class="Servicecoupon_coupon_title">
+          标准洗车
+         </view>
+         <view class="Servicecoupon_coupon_time">
+          使用日期：2021/01/01
+         </view>
+         <view class="Servicecoupon_coupon_price">
+          价格：25元
+         </view>
+         <view class="Servicecoupon_coupon_shop">
+          核销店铺：店铺名称
+         </view>
+      </view>
+      <view class="Sharecoupon_coupon_btn_box flexbox ">
+        <button class="Sharecoupon_coupon_btn bgc_grey">已过期</button> 
+        <!-- <button class="Sharecoupon_coupon_btn bgc_grey">已过期</button>  -->
+        <!-- <button class="Sharecoupon_coupon_btn bgc_grey">已过期</button> -->
+      </view>
+    </view>
+  </view>
+  </van-tab>
+  <van-tab title="已使用">
+    <view wx:for="{{3}}" :key="item" class="Sharecoupon_coupon">
+    <view class="flexbox flex_between Sharecoupon_coupon_box">
+      <view>
+          <view class="Sharecoupon_coupon_title">
+            代金券（洗车）
+          </view>
+          <view class="Sharecoupon_coupon_price">  
+            ￥2.00
+          </view>
+          <view class="Sharecoupon_coupon_time">
+            2020/12/18-2021/01/01
+          </view>
+      </view>
+      <view class="Sharecoupon_coupon_btn_box">
+        <button class="Sharecoupon_coupon_btn">去使用</button>
+      </view>
+    </view>
+  </view>
+  </van-tab>
+  <van-tab title="已过期">
+    <view wx:for="{{3}}" :key="item" class="Sharecoupon_coupon">
+    <view class="flexbox flex_between Sharecoupon_coupon_box">
+      <view>
+          <view class="Sharecoupon_coupon_title">
+            代金券（洗车）
+          </view>
+          <view class="Sharecoupon_coupon_price">  
+            ￥2.00
+          </view>
+          <view class="Sharecoupon_coupon_time">
+            2020/12/18-2021/01/01
+          </view>
+      </view>
+      <view class="Sharecoupon_coupon_btn_box">
+        <button class="Sharecoupon_coupon_btn">去使用</button>
+      </view>
+    </view>
+  </view>
+  </van-tab>
+</van-tabs>
+  
+</view>

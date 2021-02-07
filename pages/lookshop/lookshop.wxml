@@ -1,0 +1,47 @@
+<!--pages/lookshop/lookshop.wxml-->
+<!-- <text>pages/lookshop/lookshop.wxml</text> -->
+<view class="lookshop_contianer">
+  <view class="page-section page-section-spacing swiper swiperBox">
+    <swiper indicator-dots="{{indicatorDots}}" class="swiperBox" autoplay="{{autoplay}}" interval="{{interval}}"
+      duration="{{duration}}">
+      <block wx:for="{{background}}" wx:key="*this">
+        <swiper-item>
+          <view class="swiper-item swiperIndex {{item}}"></view>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class="flexbox lookshop_counp">
+    <view>
+      <van-icon name="location" size="17px" class="lookshop_counp_icon" />
+    </view>
+    <view>
+      平台通用服务
+    </view>
+  </view>
+
+  <view class="lookshop_counp_list flexbox flex_between" wx:for="{{2}}" :key="{{item}}">
+    <view class="flexbox">
+      <view class="lookshop_counp_list_title">
+        洗车统一价,平台所有洗车店通用,标准洗车
+      </view>
+      <view class="color_red">
+        30元
+      </view>
+      <view>
+        /次
+      </view>
+    </view>
+    <view class="lookshop_counp_list_btn ">
+      立即购买
+    </view>
+  </view>
+  <view class="BuyNow_shop_more_box ">
+    <view class="BuyNow_shop_more_title">可用店铺</view>
+    <van-row>
+      <van-col span="12" wx:for="{{4}}" :key="{{item}}">
+        <carlist></carlist>
+      </van-col>
+    </van-row>
+  </view>
+</view>

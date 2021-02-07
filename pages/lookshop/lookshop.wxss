@@ -1,0 +1,92 @@
+/* pages/lookshop/lookshop.wxss */
+.lookshop_contianer{
+  width: 100vw;
+  box-sizing: border-box;
+  padding-top: 11rpx;
+}
+.swiperBox{
+  width: 730rpx;
+  margin: 0 auto;
+  height: 280rpx;
+  border-radius: 10rpx;
+	box-shadow: -16rpx 0rpx 32rpx 6rpx 
+		rgba(0, 0, 0, 0.28);
+}
+.swiper-item{
+  height: 280rpx;
+}
+.swiperBox{
+  width: 730rpx;
+  margin: 0 auto;
+  height: 280rpx;
+  border-radius: 10rpx;
+	box-shadow: -16rpx 0rpx 32rpx 6rpx 
+		rgba(0, 0, 0, 0.28);
+}
+.demo-text-1{
+  background-color: #ccc;
+}
+.demo-text-2{
+  background-color: #eee;
+}
+.demo-text-3{
+  background-color: #1f29bd;
+}
+.lookshop_counp{
+  padding: 30rpx 12rpx;
+  align-items: center;
+  padding-bottom: 0;
+}
+.lookshop_counp_icon{
+  margin-top: 10rpx;
+  font-size: 28rpx;
+	font-weight: normal;
+	color: #1b212f;
+}
+.lookshop_counp_list{
+  width: 729rpx;
+  height: 89rpx;
+  background-color: #f9d3d3;
+  margin: auto;
+  margin-top: 10rpx;
+  font-size: 24rpx;
+  align-items: center;
+  padding: 10rpx;
+  box-sizing: border-box;
+}
+.lookshop_counp_list_btn{
+  width: 108rpx;
+  height: 42rpx;  
+  font-size: 24rpx;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+.lookshop_counp_list_title{
+  text-indent: 8rpx;
+}
+.lookshop_counp_list_btn{
+  color: #ffffff;
+  width: 108rpx;
+  height: 42rpx;
+  background-color: #f11924;
+  line-height: 42rpx;
+  border-radius: 3rpx;
+  text-align: center;
+}
+.flex_between{
+  justify-content: space-between;
+}
+.color_red{
+  color: #ee181b;
+  margin-left: 3rpx;
+}
+.BuyNow_shop_more_title {
+  font-size: 24rpx;
+  color: #1b212f;
+  padding: 0 16rpx;
+  margin-top: 30rpx;
+}
+.lookshop_contianer{
+  min-height: 100vh;
+  background-color: #ededed;
+}

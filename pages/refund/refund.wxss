@@ -1,0 +1,101 @@
+/* pages/Sharecoupon/Sharecoupon.wxss */
+.Sharecoupon_container {}
+
+.Sharecoupon_btn_group {
+  display: flex;
+  margin-top: 10rpx;
+}
+
+.Sharecoupon_btn {
+  width: 223rpx;
+  background-color: #f6ede6;
+  font-size: 24rpx;
+  color: #e00a19;
+  line-height: 57rpx;
+  text-align: center;
+  height: 57rpx;
+  border-radius: 0;
+}
+
+.Sharecoupon_btn_active {
+  width: 223rpx;
+  height: 57rpx;
+  background-color: #ee181b;
+  font-size: 24rpx;
+  line-height: 57rpx;
+  color: #ffffff;
+  border-radius: 0;
+}
+
+.Sharecoupon_btn_box {
+  margin-left: 20rpx;
+}
+
+.Sharecoupon_coupon {
+  width: 729rpx;
+  height: 179rpx;
+  background-color: #ffffff;
+  border: solid 1rpx #dddddd;
+  margin: auto;
+  margin-top: 22rpx;
+}
+
+.Sharecoupon_coupon_btn {
+  width: 134rpx;
+  height: 62rpx;
+  color: #fff;
+  font-size: 24rpx;
+}
+
+
+.Sharecoupon_coupon_time {
+  color: #666666;
+  font-size: 20rpx;
+  line-height: 30rpx;
+
+}
+.bgc_grey{
+  background-color: #999999;
+}
+.bgc_ligngrey{
+background-color: #eeeeee;
+}
+.Sharecoupon_coupon_img {
+  width: 225rpx;
+  height: 153rpx;
+}
+.Servicecoupon_coupon_title{
+  font-size: 28rpx;
+	font-weight: bold;
+  color: #000000;
+  margin-top: 9rpx;
+}
+.Servicecoupon_coupon_center{
+  flex: 1;
+  margin-left: 14rpx;
+}
+.Servicecoupon_coupon_time{
+  margin-top: 4rpx;
+}
+.Servicecoupon_coupon_time,.Servicecoupon_coupon_price,.Servicecoupon_coupon_shop{
+  font-size: 20rpx;
+  color: #666666;
+  line-height: 35rpx;
+}
+.color_orange{
+  color: #ff5e0e;
+}
+.Sharecoupon_coupon_box{
+  padding: 12rpx;
+}
+.Sharecoupon_coupon_btn_box{
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.bgc_blue{
+  background-color: #5195db;
+}
+.bgc_red{
+  background-color: #ee181b;
+}

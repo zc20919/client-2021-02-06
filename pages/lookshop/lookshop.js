@@ -1,18 +1,23 @@
-// pages/BuyNow/BuyNow.js
+// pages/lookshop/lookshop.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    
+    background: ['demo-text-1', 'demo-text-2', 'demo-text-3'],
+    indicatorDots: true,
+    vertical: false,
+    autoplay: true,
+    interval: 2000,
+    duration: 500
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+
   },
 
   /**
