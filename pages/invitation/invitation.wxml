@@ -1,0 +1,112 @@
+<!--pages/invitation/invitation.wxml-->
+<!-- <text>pages/invitation/invitation.wxml</text> -->
+<view class="invitation_container">
+  <view class="invitation_header">
+    <view class="invitation_img_box">
+      <image src="https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1963304009,2816364381&fm=26&gp=0.jpg"
+        class="invitation_img"></image>
+    </view>
+    <view class="invitation_info_Boxall">
+      <view class="invitation_info_box">
+        <view class="flexbox flexcenter align_center">
+          <view class="invitation_info_name">
+            5座小轿
+          </view>
+          <view class="invitation_info_price">
+            原价￥40.00
+          </view>
+        </view>
+        <view class="flexbox flexcenter align_center invitation_info_name_box">
+          <view class="invitation_info_name_next">
+            邀请1名新人
+          </view>
+          <view class="invitation_info_price flexbox">
+            <view class="invitation_info_price_name">
+              ￥28.00
+            </view>
+            <view class="invitation_info_name_next">
+              元洗车
+            </view>
+          </view>
+        </view>
+        <view class="flexbox flexcenter align_center invitation_info_name_box">
+          <view class="invitation_info_name_next">
+            邀请2名新人
+          </view>
+          <view class="invitation_info_price flexbox">
+            <view class="invitation_info_price_name">
+              ￥28.00
+            </view>
+            <view class="invitation_info_name_next">
+              元洗车
+            </view>
+          </view>
+        </view>
+        <view class="flexbox flexcenter align_center invitation_info_name_box">
+          <view class="invitation_info_name_next">
+            邀请3名新人
+          </view>
+          <view class="invitation_info_price flexbox">
+            <view class="invitation_info_price_name">
+              ￥28.00
+            </view>
+            <view class="invitation_info_name_next">
+              元洗车
+            </view>
+          </view>
+        </view>
+        <view class="flexbox flexaround">
+          <button class="goshare color_white">
+            继续邀请
+          </button>
+          <button class="bug_now color_white">
+            立即购买￥26.00
+          </button>
+        </view>
+        <view class="invitation_info_name_next text_center invitation_txt">
+          邀请3名新人抢购买资格(2/3)
+        </view>
+      </view>
+      <view class="invitation_bottom">
+        <view class="invitation_bottom_title">
+          邀人攻略
+        </view>
+
+        <view class="invitation_bottom_next_title">
+          第一步
+        </view>
+        <view class="invitation_bottom_next_desc">
+          点击邀请按钮分享小程序给好友
+        </view>
+        <view class="flexbox flex_between">
+          <view style="flex:1">
+            <view class="invitation_bottom_next_title margin_top_70">
+              第e二步
+            </view>
+            <view class="invitation_bottom_next_desc invitation_bottom_next_desc_box" style="width:auto">
+              让好友关注「家点点」公众号
+            </view>
+
+          </view>
+          <view class="margin_top_70 invitation_bottom_img_box" >
+            <image src="https://dss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1963304009,2816364381&fm=26&gp=0.jpg"
+              class="invitation_bottom_img"></image>
+          </view>
+        </view>
+        <view class="flexbox flex_between">
+          <view>
+            <view class="invitation_bottom_next_title margin_top_70">
+              第三步
+            </view>
+            <view class="invitation_bottom_next_desc invitation_bottom_next_desc_box">
+              让好友点击公众号的“特惠服务“菜单
+              进入「家点点」小程序并授权即助力成功
+            </view>
+          </view>
+        </view>
+
+      </view>
+    </view>
+
+  </view>
+</view>

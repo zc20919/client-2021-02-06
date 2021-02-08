@@ -89,6 +89,30 @@
         {
           "name": "立即购买",
           "pathName": "pages/BuyNow/BuyNow",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/lookshop/lookshop",
+          "pathName": "pages/lookshop/lookshop",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/Servicecoupon/Servicecoupon",
+          "pathName": "pages/Servicecoupon/Servicecoupon",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/SpecialOffer/SpecialOffer",
+          "pathName": "pages/SpecialOffer/SpecialOffer",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/invitation/invitation",
+          "pathName": "pages/invitation/invitation",
           "scene": null
         }
       ]

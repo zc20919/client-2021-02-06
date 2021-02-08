@@ -7,7 +7,11 @@
     "pages/evaluate/evaluate",
     "pages/BuyNow/BuyNow",
     "components/carlist/carlist",
-    "pages/shop/shop"
+    "pages/shop/shop",
+    "pages/lookshop/lookshop",
+    "pages/Servicecoupon/Servicecoupon",
+    "pages/refund/refund",
+    "pages/invitation/invitation"
   ],
   "permission": {
     "scope.userLocation": {

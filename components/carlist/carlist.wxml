@@ -5,8 +5,8 @@
           <view class="cardIndexShop">
             <view class="cardIndexShopTit writeEll">专业换油养护中心专业换油养护中心</view>
             <view class="cardIndexShopRate">
-              <van-rate value="{{ valueText }}" allow-half bind:change="onChange" size="15" gutter="1" color="#ff5e0e" void-color="#eee" void-icon="star" bind:change="onChange"/>
-              {{valueText}}分
+              <van-rate value="1" allow-half bind:change="onChange" size="15" gutter="1" color="#ff5e0e" void-color="#eee" void-icon="star" bind:change="onChange"/>
+             1分
             </view>
             <view class="cardIndexShopTime">营业时间：8:00-18:00</view>
             <view class="cardIndexShopAddress">
